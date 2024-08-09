@@ -1,0 +1,61 @@
+header{
+    background-color: red;
+    min-height: 100px;
+}
+
+header li{
+    display: inline;
+    padding: 20px;
+    float: right;
+}
+.specialization-container{
+    display: flex
+    
+    
+    
+}
+
+.specialization-box{
+    background: rgb(125, 209, 255);
+    border: 1px solid blue;
+    padding: 10px;
+    border-radius: 10px;
+    width: 250px;
+}
+
+.specialization-box :hover{
+    transform: translateY(-10px);
+   
+}
+
+.carousel{
+    overflow: hidden;
+    position: relative;
+    max-height: 200px;
+    
+}
+.carousel-slide{
+    display: flex;
+    width: 100%;
+    animation:  slide 25s infinite ;
+}
+
+.carousel-slide img{
+    width: 20%;
+    height: auto;
+    
+    
+    
+}
+
+
+@keyframes slide {
+    0% { transform: translateX(0%); }
+    8.33% { transform: translateX(-8.33%); }
+    16.66% { transform: translateX(-16.66%); }
+    25% { transform: translateX(-25%); }
+    33.33% { transform: translateX(-33.33%); }
+    41.66% { transform: translateX(-41.66%); }
+    50% { transform: translateX(-50%); }
+    58.33% { transform: translateX}
+}
