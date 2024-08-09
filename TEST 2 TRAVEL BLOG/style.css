@@ -1,0 +1,28 @@
+body{
+    background-color: rgb(242, 133, 133);
+}
+
+header{
+    background-color: rgb(255, 0, 0);
+    min-height: 90px;
+}
+header a{
+    background-color: red;
+}
+
+header li{
+    display: inline;
+padding-inline: 20px;
+  
+}
+
+
+
+
+header nav{
+    display: inline;
+    float: right;
+    margin-top: -10px;
+    
+}
+

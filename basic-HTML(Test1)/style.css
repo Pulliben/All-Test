@@ -1,0 +1,46 @@
+header{
+    background:black;
+    color: rgb(255, 255, 255);
+    
+
+}
+header li{
+    display: inline;
+    padding: 20px;
+}
+   header li:hover {
+    opacity: 0.8; /* Slight transparency on hover */
+    transform: scale(1.05); /* Optional: Slight scale up on hover */
+    transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+   }
+
+   header li{
+    float: right;
+   }
+   .content{
+    padding: 20%;
+
+
+   }
+
+   footer{
+    background: rgba(0, 0, 0, 0.203);
+    color: rgb(255, 255, 255);
+    
+
+}
+.specialization-container{
+    display: flex;
+    justify-content: space-around;
+
+}
+.specialization-box{
+    border: 20px;
+    background: red;
+    border-color: blue;
+    border-radius: 20px;
+    width: 30%;
+}
+
+
+   
